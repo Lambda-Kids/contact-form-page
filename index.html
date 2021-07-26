@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/forms.css">
 
     <title>Lambda Kids</title>
 </head>
@@ -20,11 +21,26 @@
    <main class="container">
         <form action="" class="form">
             <h2>Contáctanos</h2>
-            <input type="email" placeholder="Ingresa tu email" required>
-            <input type="text" placeholder="Título" required>
-            <label for="desc">Descripción:</label>
-            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+            <main>
+                <input type="email" name="email" id="email" required>
+                <label htmlFor="email" class="label-name">
+                   <span class="content-name">Ingresa tu Email</span>
+                <label>
+            </main>
+            <main>
+                <input type="text" name="title" id="title" required>
+                <label htmlFor="title" class="label-name">
+                   <span class="content-name">Título</span>
+                <label>
+            </main>
+            <main class="textarea">
+                <textarea name="content" class="text" required ></textarea>
+                <label htmlFor="content" class="label-name">
+                    <span class="content-name">Descripción</span>
+                </label>
+            </main>
             <button>Enviar</button>
+
         </form>
    </main>
    
