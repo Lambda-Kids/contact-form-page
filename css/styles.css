@@ -27,14 +27,7 @@ header {
     border-radius: 10px;
 }
 
-.form button,
-.form textarea,
-.form input {
-    width: 100%;
-    padding: 0.1rem 0.5rem;
-    font-size: 1em;
-    margin-bottom: 2px;
-}
+
 
 .form::before {
     content: "";
@@ -48,4 +41,8 @@ header {
     z-index: -1;
     filter: blur(5px);
     border-radius: 10px;
+}
+
+button {
+    background-color: khaki;
 }

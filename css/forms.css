@@ -68,6 +68,7 @@ button, .button {
     cursor: pointer;
     outline: none;
     transition: all 500ms ease;
+    background-color: inherit;
 }
 
 button:hover,
